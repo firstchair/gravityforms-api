@@ -1,0 +1,14 @@
+{
+  "name": "gravityforms-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Koen Van den Wijngaert",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.71.0"
+  }
+}
