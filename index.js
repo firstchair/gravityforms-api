@@ -6,8 +6,9 @@
 
 /*jshint node: true */
 'use strict';
+require('dotenv').load();
 
-var gravityForms = require('./gravityforms')('https://www.siteoptimo.com/gravityformsapi/', '21ee943183', 'a5084a06e7a34c3');
+var gravityForms = require('./gravityforms')(process.env.ENDPOINT, process.env.PUBLIC_KEY, process.env.PRIVATE_KEY);
 
 // gravityForms.getForms(function(err, forms) {
 //   console.log(forms);
